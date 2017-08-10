@@ -37,7 +37,7 @@
 <body>
   <div id="app">
     <img src="https://raw.githubusercontent.com/wmfe/xcui/2.0/demos/assets/xcui-logo.png" alt="xcui logo">
-    <h1>{{ greeting }}</h1>
+    <h1>\{{ greeting }}</h1>
     <ul>
       <li>
         <x-button type="primary" @click="welcome"> Hello World </x-button>
@@ -48,13 +48,13 @@
       <li>
         To learn more about xcui, visit
         <a :href="docsURL" target="_blank">
-          {{ humanizeURL(docsURL) }}
+          \{{ humanizeURL(docsURL) }}
         </a>
       </li>
       <li>
         Github:
         <a :href="docsURL" target="_blank">
-          {{ humanizeURL(repoURL) }}
+          \{{ humanizeURL(repoURL) }}
         </a>
       </li>
     </ul>
